@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 import Video from '../../videos/video.mp4'
 import { HeroContainer, HeroBg, VideoBg, HeroContent, HeroH1, HeroP, 
     HeroBtnWrapper,ArrowForward, ArrowRight} from './HeroElements';
-import { Button  } from '../ButtonElements'; 
+import { Button, Button1  } from '../ButtonElements'; 
 import Typical from 'react-typical'
 
 const HeroSection = () => {
@@ -29,14 +29,16 @@ return (
         </HeroP>
     
         <HeroBtnWrapper>
-            <Button to="signup" onMouseEnter ={onHover} onMouseLeave={onHover}
+            <Button1 to="/register" onMouseEnter ={onHover} onMouseLeave={onHover}
             primary="true"
             dark="true"
             
             
             >
              Register to the website {hover ? <ArrowForward /> : <ArrowRight /> }
- </Button>
+ </Button1>
+
+ 
         </HeroBtnWrapper>
         </HeroContent>
         

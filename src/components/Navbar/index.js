@@ -46,7 +46,7 @@ window.addEventListener ('scroll' , changeNav);
 
 </NavMenu>
 <NavBtn>
-<NavBtnLink to="/signin">Sign In</NavBtnLink>
+<NavBtnLink to="/login">Log In</NavBtnLink>
 
 
 </NavBtn>

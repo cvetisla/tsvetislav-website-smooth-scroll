@@ -18,7 +18,7 @@ const InfoSection = ({lightBg, id, imgStart, topLine, lightText, headline, darkT
           darkText={darkText}>{description}
         </Subtitle>
         <BtnWrap>
-            <Button to='./contactme' 
+            <Button href="https://www.linkedin.com/in/tsvetislav-ivanchev/" target="_blank" aria-label="Linkedin"
             smooth={true}
             duration={500}
             spy={true}
