@@ -29,14 +29,14 @@ return (
         </HeroP>
     
         <HeroBtnWrapper>
-            <Button1 to="/register" onMouseEnter ={onHover} onMouseLeave={onHover}
+            <Button to="/register" onMouseEnter ={onHover} onMouseLeave={onHover}
             primary="true"
             dark="true"
             
             
             >
              Register to the website {hover ? <ArrowForward /> : <ArrowRight /> }
- </Button1>
+ </Button>
 
  
         </HeroBtnWrapper>

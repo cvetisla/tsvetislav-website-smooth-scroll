@@ -1,10 +1,10 @@
 import styled from 'styled-components';
 import { Link as LinkR } from 'react-router-dom'
 import { Link as LinkS } from 'react-scroll'
+import {Link} from 'react-router-dom'
 
 
-
-export const Button = styled(LinkS)`
+export const Button = styled(LinkR)`
 border-radius: 50px;
 background: ${({primary}) => (primary ? '#01BF71' : '#010606')
 };
@@ -31,7 +31,7 @@ background: ${({primary}) => (primary ? '#f7f8fa' : '#01BF71')};
 
 
 
-export const Button1 = styled(LinkR)`
+export const Button1 = styled.a `
 border-radius: 50px;
 background: ${({primary}) => (primary ? '#01BF71' : '#010606')
 };
