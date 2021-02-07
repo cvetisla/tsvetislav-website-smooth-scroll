@@ -16,10 +16,13 @@ position: sticky;
 top: 0;
 z-index: 10;
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 960px) {
     transition: 0.8s all ease;
+  
 }
-`
+`;
+
+
 export const NavbarContainer = styled.div`
 display: flex;
 justify-content: space-between;
@@ -28,9 +31,10 @@ z-index: 1;
 width: 100%;
 padding: 0 24px;
 max-width: 1110px;
-`
+`;
 
-export const NavLogo = styled(LinkR)`
+
+export const NavLogo = styled(LinkS)`
 color: #fff;
 justify-self: flex-start;
 cursor: pointer;
@@ -42,10 +46,10 @@ font-weight: bold;
 text-decoration: none;
 `;
 
-export const MobileIcon = styled.div `
+export const MobileIcon = styled.div ` 
 display: none;
 
-@media screen and (max-width: 1600px) {
+@media screen and (max-width: 768px) {
     display: block;
     position: absolute;
     top: 0;
@@ -56,6 +60,7 @@ display: none;
     color: #fff;
 }
 `;
+
 export const NavMenu = styled.ul `
 
 display: flex;
@@ -64,37 +69,41 @@ list-style: none;
 text-align: center;
 margin-right: -22px;
 
-@media screen and (max width: 1000px) {
-display: none;
+@media screen and (max-width: 768px) {
+    display: none;
 }
-`
+ `;
+
+
+
 export const NavItem = styled.li `
 height: 80px;
-`
+`;
+
 
 export const NavLink = styled(LinkS) `
 color: #fff;
 display: flex;
 align-items: center;
 text-decoration: none;
-padding: 1rem; 
+padding: 0 1rem; 
 height: 100%;
 cursor: pointer;
 
-&.active {
+&:active {
 border-bottom: 3px solid #01bf71;
 }
+`;
 
-`
 export const NavBtn = styled.nav `
 display: flex;
 align-items: center;
 
 @media screen and (max-width: 768px) {
-
     display: none;
 }
-`
+`;
+
 export const NavBtnLink = styled(LinkR) `
 border-radius: 50px;
 background: #01bf71;
@@ -110,11 +119,12 @@ text-decoration: none;
 
 &:hover {
 
-    all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
     background: #fff;
     color: #010606;
 }
 `;
+
 export const NavBarRoute1= styled(LinkR) `
 color: black;
 display: flex;
@@ -131,4 +141,6 @@ cursor: pointer;
     color: #010606;
 }
 
-`
+`;
+
+

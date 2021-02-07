@@ -1,5 +1,6 @@
 import styled from 'styled-components'
 import {MdKeyboardArrowRight, MdArrowForward} from 'react-icons/md';
+
 export const HeroContainer = styled.div`
 background: #0c0c0c;
 display: flex;
@@ -23,7 +24,6 @@ linear-gradient(180deg, rgba (0,0,0,0.2) 0%, transperant 100%)
 z-index: 2;
 }
 
-/* Add: before styles*/
 `;
 
 export const HeroBg = styled.div`
@@ -62,13 +62,14 @@ text-align: center;
 font-family: 'Montserrat', sans-serif;
 font-weight: bold;
 
-@media screen and (max-width: 768px) {
-
-    font-size: 40px;
+@media screen and (min-width: 768px) {
+    width: auto;
+    font-size: 20px;
 }
 
 @media screen and (max-width: 480px)
-{
+{   
+    width: auto;
     font-size: 32px;
 }
 `
@@ -82,12 +83,13 @@ font-family: 'Montserrat', sans-serif;
 font-weight: bold;
 
 @media screen and (max-width: 768px) {
-
+    width: auto;
     font-size: 40px;
 }
 
 @media screen and (max-width: 480px)
 {
+    width: auto;
     font-size: 18px;
 }
 `

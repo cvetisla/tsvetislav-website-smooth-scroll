@@ -1,6 +1,6 @@
 import React from "react";
 import loginImg from '../images/login.svg'; 
-import '../images/style.scss'; 
+import './style.scss'; 
 
 export class Reg extends React.Component {
 

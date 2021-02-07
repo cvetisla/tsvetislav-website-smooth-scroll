@@ -80,7 +80,8 @@ font-size:14px;
     color: #01bf71;
     transition: 0.3s ease-in-out
 }
-`
+    `
+
 export const SocialMedia = styled.section `
 max-width: 1000px;
 width: 100%;
@@ -121,10 +122,15 @@ color: #fff;
 margin-bottom: -5px;
 margin-left: 179px;
 
+@media screen and (max-width: 420px) {
 
+margin-left: auto;
+padding: 10px;
+width: 50%;
 
-
-`
+    
+    }
+    `
 
 export const SocialIcons = styled.div `
 

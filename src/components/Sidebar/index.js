@@ -18,7 +18,7 @@ const Sidebar = ({isOpen, toggle}) => {
                     <SocialIconLink href="https://www.instagram.com/tsvetislavp/" target="_blank" aria-label="Instagram">
                         <FaInstagram />
                     </SocialIconLink>
-                    <SocialIconLink href="https://www.twitter.com" target="_blank" aria-label="Twitter">
+                    <SocialIconLink href="https://twitter.com/TsvetislavI" target="_blank" aria-label="Twitter">
                         <FaTwitter />
                     </SocialIconLink>
                     <SocialIconLink href="https:///www.linkedin.com/in/tsvetislav-ivanchev/" target="_blank" aria-label="Linkedin">
@@ -32,7 +32,7 @@ const Sidebar = ({isOpen, toggle}) => {
             
             <SidebarLink to = 'about' onClick={toggle}> About</SidebarLink>
             <SidebarLink to = 'discover' onClick={toggle}> Technologies</SidebarLink>
-            <SideBarRoute1 to='wordofmouth' onClick={toggle}>Testemonials</SideBarRoute1>
+            <SidebarLink to = 'wordofmouth' onClick={toggle}> Testemonials</SidebarLink>
             <SidebarLink to = 'services'onClick={toggle} >Demo Projects</SidebarLink>
             </SidebarMenu>
            

@@ -2,7 +2,6 @@ import React from 'react';
 import './App.css';
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom'
 import Home from './pages';
-import SignInPage from './pages/signin';
 import NavBar from './components/Navbar';
 import {LogIn} from "./components/login/login";
 import {Reg} from "./components/login/register";
@@ -19,7 +18,6 @@ function App() {
      <Switch>
 
        <Route path='/' component={Home} exact />
-       <Route path='/signin' component={SignInPage} exact />
        <Route path='/login' component={LogIn} exact />
        <Route path='/register' component={Reg} exact /> 
      

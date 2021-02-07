@@ -23,16 +23,15 @@ const Footer = () => {
         <FooterLink href="https://reactjs.org/" target="_blank" aria-label="React.Js">React.js</FooterLink>
         <FooterLink href="https://styled-components.com/" target="_blank" aria-label="Styled Components"> Styled Components</FooterLink>
         <FooterLink href="https://reactrouter.com/" target="_blank" aria-label="React Router">React Router</FooterLink>
-        
+       
         </FooterLinkItems>
             </FooterLinksWrapper>
         </FooterLinksContainer>
         <SocialMedia>
             <SocialMediaWrap>
                 <SocialLogo to='/'>
-                    
                 </SocialLogo>
-                <WebsiteRights>Slav's Portfolio ® {new Date().getFullYear()} All Rights reserved.</WebsiteRights>
+                <FooterLink>Slav's Portfolio ® {new Date().getFullYear()} All Rights reserved.</FooterLink>
                 <SocialIcons>
                     <SocialIconLink href="https://www.facebook.com/cvetislav.petrov/" target="_blank" aria-label="Facebook">
                         <FaFacebook />
@@ -40,7 +39,7 @@ const Footer = () => {
                     <SocialIconLink href="https://www.instagram.com/tsvetislavp/" target="_blank" aria-label="Instagram">
                         <FaInstagram />
                     </SocialIconLink>
-                    <SocialIconLink href="https://www.twitter.com/" target="_blank" aria-label="Twitter">
+                    <SocialIconLink href="https://twitter.com/TsvetislavI" target="_blank" aria-label="Twitter">
                         <FaTwitter />
                     </SocialIconLink>
                     <SocialIconLink href="https://www.linkedin.com/in/tsvetislav-ivanchev/" target="_blank" aria-label="Linkedin">

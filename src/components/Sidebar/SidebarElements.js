@@ -21,7 +21,7 @@ top: ${({ isOpen }) => (isOpen ? '0' : '-100%')};
 
 
 export const CloseIcon = styled(FaTimes)`
-color: #fff
+color: #ffff
 
 `;
 
@@ -33,6 +33,8 @@ background: transparent;
 font-size: 2rem;
 cursor: pointer;
 outline: none;
+display: flex;
+
 
 `;
 
@@ -41,13 +43,13 @@ color: #fff;
 `;
 
 export const SidebarMenu = styled.ul`
-display:grid;
+display: grid;
 grid-template-columns: 1fr;
-grid-template-rows: repeat(6, 60px);
+grid-template-rows: repeat(6, 80px);
 text-align: center;
 
-@media screen and (max-width: 1600px) {
-   gird-template-rows: repeat(6, 60px);
+@media screen and (max-width: 480px) {
+   grid-template-rows: repeat(6, 60px);
 }
 `;
 

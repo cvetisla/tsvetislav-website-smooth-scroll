@@ -4,9 +4,15 @@ import {InfoContainer, InfoWrapper, InfoRow, Column1, Column2, TextWrapper,
 TopLine, Heading, Subtitle, BtnWrap, ImgWrap, Img} from './InfoElements';
 
 
-const InfoSection = ({lightBg, id, imgStart, topLine, lightText, headline, darkText, description, buttonLabel, img, alt, primary, dark, dark2}) => {
-    return (
+
+const InfoSection = ({lightBg, id, imgStart, topLine, lightText, headline, darkText, description, description1, buttonLabel, img, alt, primary, dark, dark2}) => {
+   
+  
+  return (
+
         <>
+        
+
         <InfoContainer lightBg={lightBg} id={id}>
         <InfoWrapper>
         <InfoRow imgStart={imgStart}>
@@ -17,6 +23,11 @@ const InfoSection = ({lightBg, id, imgStart, topLine, lightText, headline, darkT
         <Subtitle 
           darkText={darkText}>{description}
         </Subtitle>
+        <br></br>
+        <Subtitle
+         darkText={darkText}>
+           {description1}
+         </Subtitle>
         <BtnWrap>
             <Button1 href="https://www.linkedin.com/in/tsvetislav-ivanchev/" target="_blank" aria-label="Linkedin"
             smooth={true}
@@ -28,9 +39,6 @@ const InfoSection = ({lightBg, id, imgStart, topLine, lightText, headline, darkT
             dark={dark ? 1 : 0}
             dark2= {dark2 ? 1 : 0}
             >
-            
-            
-            
             {buttonLabel} </Button1>
         </BtnWrap>
 
@@ -70,7 +78,10 @@ const InfoSection = ({lightBg, id, imgStart, topLine, lightText, headline, darkT
 
         </InfoContainer>
         </>
+
+
     )
+
 }
 
 export default InfoSection

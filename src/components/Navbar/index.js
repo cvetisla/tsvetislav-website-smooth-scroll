@@ -23,7 +23,7 @@ window.addEventListener ('scroll' , changeNav);
         <>
 <Nav scrollNav={scrollNav}>
 <NavbarContainer>
-<NavLogo to='./' >
+<NavLogo to="discover" >
     Slav's portfolio
 </NavLogo>
 <MobileIcon onClick={toggle}> 

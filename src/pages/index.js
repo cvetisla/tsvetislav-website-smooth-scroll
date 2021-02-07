@@ -5,8 +5,6 @@ import NavBar from '../components/Navbar';
 import Sidebar from '../components/Sidebar';
 import InfoSection from '../components/InfoSection';
 import { homeObjOne, homeObjTwo, homeObjThree} from '../components/InfoSection/Data';
-import SocialFollow from "../components/SocialFollow";
-import AppContact from '../components/contact';
 import Services from '../components/Services';
 
 
